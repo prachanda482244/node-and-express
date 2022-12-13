@@ -18,6 +18,7 @@ app.get('/',(req,res)=>{
 app.get('/about',(req,res)=>{
     res.status(200).send('About page')
 })
+// checking for 404 error
 app.all('*',(req,res)=>{
     res.status(404).send('404 page not found')
 })
