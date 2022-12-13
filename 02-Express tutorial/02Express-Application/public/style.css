@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: .5rem 0;
+    color:white;
+
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar li{
+    margin: 0 2rem;
+    list-style: none;
+}
+.navbar li a{
+    font-size: 24px;
+    text-decoration: none;
+    color:white;
+
+}
+.navbar li a:hover{
+    color: black;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+.search input,button{
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin :0 10px
+}
