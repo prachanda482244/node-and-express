@@ -18,11 +18,18 @@ app.get('/',(req,res)=>{
 app.get('/about',(req,res)=>{
     res.status(200).send('About page')
 })
-// checking for 404 error
-app.all('*',(req,res)=>{
-    res.status(404).send('404 page not found')
+
+// love
+app.get('/bachhi',(req,res)=>{
+    res.status(200).send('<h2>Hello  bachhi</h2>')
 })
 
+// checking for 404 error
+app.all('*',(req,res)=>{
+    res.status(404).send('404 not found')
+})
+
+// server
 app.listen(5000,()=>{
     console.log('Server is listening on 5000')
 });
