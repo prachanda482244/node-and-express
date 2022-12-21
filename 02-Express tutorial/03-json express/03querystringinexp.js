@@ -25,7 +25,7 @@ app.get('/api/v2/query', (req, res) => {
     res.status(200).json(sortedProducts)
     res.send('Hello world')
 })
-
+// api - https://hn.algolia.com/api
 app.listen(5000, () => {
     console.log('server running on port');
 })
