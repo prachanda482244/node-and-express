@@ -1,34 +1,43 @@
 const products = [
     {
-        id:1,
-        name:'Iphone',
-        price:499,
-        desc:'Iphone is a mobile bamd'
+        id: 1,
+        name: 'Iphone',
+        price: 499,
+        desc: 'Iphone is a mobile bamd'
     },
     {
-        id:2,
-        name:'Laptop',
-        price:799,
-        desc:'Laptop is used for many things'
+        id: 2,
+        name: 'Laptop',
+        price: 799,
+        desc: 'Laptop is used for many things'
     },
     {
-        id:3,
-        name:'Canon',
-        price:299,
-        desc:'Used for clicking pictures'
+        id: 3,
+        name: 'Canon',
+        price: 299,
+        desc: 'Used for clicking pictures'
     },
     {
-        id:4,
-        name:'Else',
-        price:499,
-        desc:'something'
+        id: 4,
+        name: 'Else',
+        price: 499,
+        desc: 'something'
     }
 ]
-const people= [
-    {id:1,name:'itachi Uchiha'},
-    {id:2,name:'Izumi Uchiha'},
-    {id:3,name:'fugaku Uchiha'},
-    {id:4,name:'Sasuke Uchiha'},
-    {id:5,name:'shisui Uchiha'}
+const people = [
+    { id: 1, name: 'itachi Uchiha' },
+    { id: 2, name: 'Izumi Uchiha' },
+    { id: 3, name: 'fugaku Uchiha' },
+    { id: 4, name: 'Sasuke Uchiha' },
+    { id: 5, name: 'shisui Uchiha' }
 ]
-module.exports={products,people};
+const message = [{
+    id: 1,
+    name: 'bachhi'
+},
+{
+    id: 2,
+    name: 'Sus'
+}
+]
+module.exports = { products, people, message };
