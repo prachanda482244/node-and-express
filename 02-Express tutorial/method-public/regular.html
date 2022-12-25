@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular</title>
+
+    <style>
+        body {
+            background-color: #959596;
+        }
+        
+        nav {
+            background-color: #272985;
+            color: white;
+            padding: 1rem 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        nav a {
+            color: wheat;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            width: 60vw;
+            border-radius: 10px;
+            gap: .5rem;
+            padding: 2rem;
+            margin: 1rem auto;
+        }
+        
+        form h3 {
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 2px;
+        }
+        
+        label,
+        a,
+        .logo {
+            font-size: 18px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            letter-spacing: 1px;
+        }
+        
+        input {
+            padding: .725rem;
+            border-radius: 5px;
+            background-color: #e3e3e6;
+            border: none;
+        }
+        
+        button {
+            padding: .725rem 0;
+            background-color: #272985;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            Http method
+        </div>
+        <div class="links">
+            <a href="regular.html">regular</a>
+            <a href="javascript.html">Javascript</a>
+        </div>
+    </nav>
+
+    <main>
+        <form action="/login" method="POST">
+            <h3>Traditional Form</h3>
+            <label for="name">Enter name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" autocomplete="off">
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>

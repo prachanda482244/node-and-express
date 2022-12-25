@@ -2,7 +2,7 @@
 
 const express = require('express');
 const app = express();
-const logger=require('./02-logger');
+const logger = require('./02-logger');
 // req => middleware =>res
 
 
@@ -14,7 +14,7 @@ app.get('/', logger, (req, res) => {
 app.get('/about', logger, (req, res) => {
     res.status(200).send('ABout page')
 })
-app.get('/contact',logger,(req,res)=>{
+app.get('/contact', logger, (req, res) => {
     res.status(200).send('Contact')
 })
 
